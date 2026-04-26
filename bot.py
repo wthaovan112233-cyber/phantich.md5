@@ -2,7 +2,8 @@ import re
 from telegram.ext import Updater, MessageHandler, Filters
 
 # ====== DÁN TOKEN CỦA BẠN VÀO ĐÂY ======
-TOKEN = "8610460982:AAF_SmpXvYbR3Ww9e_2YTp8hfLCPy_UfqDk"
+import os
+TOKEN = os.getenv("8610460982:AAF_SmpXvYbR3Ww9e_2YTp8hfLCPy_UfqDk")
 
 history_sum = []
 history_dice = []
